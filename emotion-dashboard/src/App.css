@@ -1,0 +1,128 @@
+.the-container {
+  min-height: 100vh;
+  margin-left: 320px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Controls container */
+.controls-container {
+
+}
+
+/* Individual boxes */
+.control-box {
+  background-color: #e4e4e4;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  /* display: flex; */
+  /* align-items: center; */
+  color: black;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+/* Header always centered on top */
+.app-header {
+  display: block;
+
+}
+
+
+/* File upload container */
+.file-upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+/* File input styling */
+.file-upload-input {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 2px dashed #aaa;
+  background-color: #fafafa;
+  cursor: pointer;
+  width: 80%;
+  text-align: center;
+  transition: all 0.2s ease;
+  margin: 10px auto;
+}
+
+.file-upload-input:hover {
+  border-color: #333;
+  background-color: #f0f0f0;
+  
+}
+
+.prediction-output {
+  margin-top: 15px;
+  text-align: center;
+  color: black;
+}
+
+.prediction-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 10px;
+  border: 2px solid #555;
+  border-radius: 8px;
+}
+
+.prob-bars {
+  margin-top: 10px;
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prob-bar-container {
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+}
+
+.prob-label {
+  flex: 1;
+  text-align: left;
+  font-size: 12px;
+}
+
+.prob-bar {
+  flex: 3;
+  background: #ddd;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.prob-bar-fill {
+  height: 100%;
+  background: #4caf50;
+}
+
+.prob-value {
+  width: 35px;
+  font-size: 12px;
+}
+
+.predict-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* background-color: #4caf50; */
+  color: white;
+  transition: background-color 0.3s ease;
+}
