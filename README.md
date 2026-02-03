@@ -2,7 +2,6 @@
 
 A full-stack AI web app for **facial emotion recognition** using a **PyTorch model** and a **React dashboard**. Users upload an image and receive emotion predictions with confidence and probability bars.
 
----
 
 ## Tech Stack
 
@@ -17,7 +16,6 @@ A full-stack AI web app for **facial emotion recognition** using a **PyTorch mod
 - Torchvision
 - PIL
 
----
 
 ## Model
 
@@ -27,7 +25,7 @@ A full-stack AI web app for **facial emotion recognition** using a **PyTorch mod
 - Classes: Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral
 - File: `emotion_model.pth`
 
----
+
 
 ## Project Structure
 
@@ -41,7 +39,6 @@ emotion-dashboard/
 ├── src/App.css
 └── package.json
 
----
 
 ## Setup
 
